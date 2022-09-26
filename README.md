@@ -8,7 +8,7 @@
 * 运行方式: 将hello.war丢到tomcat中的webapp中
 * CentOS中部署到tomcat的webapp目录中
 ```shell
-wget -O /usr/local/tomcat/webapps/hello.war https://github.com/4575252/MavenHelloWorld/blob/master/hello.war
+wget -O /usr/local/tomcat/webapps/hello.war https://raw.githubusercontent.com/4575252/MavenHelloWorld/master/hello.war
 ```
 
 ### 技术参考

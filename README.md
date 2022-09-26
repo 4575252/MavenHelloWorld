@@ -6,7 +6,10 @@
 
 * 访问入口: http://[ip:port]/hello，ip、端口以实际环境为准。
 * 运行方式: 将hello.war丢到tomcat中的webapp中
-
+* CentOS中部署到tomcat的webapp目录中
+```shell
+wget -O /usr/local/tomcat/webapps/hello2.war https://github.com/4575252/MavenHelloWorld/blob/master/hello.war
+```
 
 ### 技术参考
 > maven中使用的骨架是`org.apache.maven.archetypes:maven-archetype-webapp`
